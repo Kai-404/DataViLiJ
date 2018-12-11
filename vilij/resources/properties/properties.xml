@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!-- HIGH-LEVEL USER INTERFACE PROPERTIES -->
+        <property name="WINDOW_WIDTH" value="1000"/>
+        <property name="WINDOW_HEIGHT" value="750"/>
+        <property name="IS_WINDOW_RESIZABLE" value="false"/>
+        <property name="TITLE" value="Visualization Library In Java (Vilij)"/>
+
+        <!-- RESOURCE FILES AND FOLDERS -->
+        <property name="GUI_RESOURCE_PATH" value="gui"/>
+        <property name="CSS_RESOURCE_PATH" value="css"/>
+        <property name="CSS_RESOURCE_FILENAME" value="vilij.css"/>
+        <property name="ICONS_RESOURCE_PATH" value="icons"/>
+
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="NEW_ICON" value="new.png"/>
+        <property name="PRINT_ICON" value="print.png"/>
+        <property name="SAVE_ICON" value="save.png"/>
+        <property name="SAVED_ICON" value="saved.png"/>
+        <property name="LOAD_ICON" value="load.png"/>
+        <property name="EXIT_ICON" value="exit.png"/>
+        <property name="LOGO" value="logo.png"/>
+
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_TOOLTIP" value="Create new data"/>
+        <property name="LOAD_TOOLTIP" value="Load data from file"/>
+        <property name="PRINT_TOOLTIP"
+                  value="Print visualization"/> <!-- will save original image to a file, irrespective of zoom in/out view -->
+        <property name="SAVE_TOOLTIP" value="Save current data"/>
+        <property name="EXIT_TOOLTIP" value="Exit application"/>
+
+        <!-- ERROR TITLES -->
+        <property name="NOT_SUPPORTED_FOR_TEMPLATE_ERROR_TITLE" value="Operation Not Supported for Templates"/>
+        <property name="LOAD_ERROR_TITLE" value="Load Error"/>
+        <property name="SAVE_ERROR_TITLE" value="Save Error"/>
+
+        <!-- ERROR MESSAGES FOR ERRORS THAT REQUIRE AN ARGUMENT -->
+        <property name="PRINT_ERROR_MSG" value="Unable to print to "/>
+        <property name="SAVE_ERROR_MSG" value="Unable to save to "/>
+        <property name="LOAD_ERROR_MSG" value="Unable to load from "/>
+
+        <!-- STANDARD LABELS AND TITLES -->
+        <property name="CLOSE_LABEL" value="Close"/>
+        <property name="SAVE_WORK_TITLE" value="Save"/>
+    </property_list>
+    <property_options_list/>
+</properties>

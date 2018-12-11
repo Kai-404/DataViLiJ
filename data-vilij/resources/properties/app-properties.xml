@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!-- RESOURCE FILES AND FOLDERS -->
+        <property name="DATA_RESOURCE_PATH" value="data"/>
+
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="SCREENSHOT_ICON" value="screenshot.png"/>
+
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="SCREENSHOT_TOOLTIP" value="Screenshot"/> <!-- will print current view of image to a file -->
+
+        <!-- WARNING MESSAGES -->
+        <property name="EXIT_WHILE_RUNNING_WARNING"
+                  value="An algorithm is running. If you exit now, all unsaved changes will be lost. Are you sure?"/>
+
+        <!-- ERROR MESSAGES -->
+        <property name="RESOURCE_SUBDIR_NOT_FOUND" value="Directory not found under resources."/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGE TITLES -->
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save Current Work"/>
+        <property name="MORE_THAN_TEN_LINES_TITLE" value="More than 10 lines"/>
+        
+
+        <!-- APPLICATION-SPECIFIC MESSAGES -->
+        <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
+        <property name="MORE_THAN_TEN_LINES" value="Showing only the first 10 in the text area."/>
+        
+
+        <!-- APPLICATION-SPECIFIC PARAMETERS -->
+        <property name="DATA_FILE_EXT" value=".tsd"/>
+        <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
+        
+        <property name="SCREENSHOT_FILE_EXT" value="png"/>
+        <property name="SCREENSHOT_FILE_EXT_DESC" value="PNG Image File"/>
+        
+        <property name="TEXT_AREA" value="text area"/>
+        <property name="SPECIFIED_FILE" value=" specified file"/>
+        <property name="LEFT_PANE_TITLE" value="Data File"/>
+        <property name="LEFT_PANE_TITLEFONT" value="SansSerif"/>
+        <property name="LEFT_PANE_TITLESIZE" value="18"/>
+        <property name="CHART_TITLE" value="Data Visualization"/>
+        <property name="DISPLAY_BUTTON_TEXT" value="Display Data"/>
+        <property name="READONLY_CHECKBOX_TEXT" value="Read Only"/>
+        
+        <property name="CSS_FILE_PATH" value="ui/data-vilij.css"/>
+        
+        <property name="CLASSIFIER_RANDOM_NAME" value="Random Classifier"/>
+        <property name="CLASSIFIER_RANDOM_PATH" value="algorithms.classification.RandomClassifier"/>
+        
+        <property name="CLUSTERER_RANDOM_NAME" value="Random Clusterer"/>
+        <property name="CLUSTERER_RANDOM_PATH" value="algorithms.clustering.RandomClusterer"/>
+        
+        <property name="CLUSTERER_KMEANS_NAME" value="KMeans Clusterer"/>
+        <property name="CLUSTERER_KMEANS_PATH" value="algorithms.clustering.KMeansClusterer"/>
+
+    </property_list>
+    <property_options_list/>
+</properties>

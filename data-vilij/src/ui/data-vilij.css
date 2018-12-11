@@ -1,0 +1,37 @@
+
+/* 
+    Created on : Feb 26, 2018, 2:21:18 AM
+    Author     : zhongkai
+*/
+
+.axis {
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+.axis-tick-mark {
+    -fx-stroke: #006600;
+    -fx-stroke-width: 3px; 
+}
+.axis-minor-tick-mark {
+    -fx-stroke: #00cc33;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: transparent;
+}
+.chart-plot-background {
+    -fx-border-color: black;
+    -fx-border-width: 4px;
+}
+
+.chart-series-line{
+    -fx-stroke: transparent;
+}
+
+.chart{
+    -fx-horizontal-zero-line-visible:	false;
+    -fx-vertical-zero-line-visible:	false;
+}
